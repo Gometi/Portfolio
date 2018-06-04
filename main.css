@@ -1,0 +1,90 @@
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#brand{
+    position: absolute;
+    left: 400px;
+    width: 700px;
+}
+#project_text{
+    position: absolute;
+    left: 500px;
+    top: 200px;
+}
+
+#mexrex{
+    position: absolute;
+    left: 300px;
+    top: 300px;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    border: 2px solid grey;
+    box-shadow: 5px 5px grey;
+}
+
+#mexrex:hover{
+   width: 395px;
+    height: 295px;
+    opacity: .8;
+    box-shadow: 1px 1px grey;
+    transition: .6s;
+}
+#okinirii{
+    position: absolute;
+    left: 800px;
+    top: 300px;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    border: 2px solid grey;
+    box-shadow: 5px 5px grey;
+}
+#okinirii:hover{
+    width: 395px;
+    height: 295px;
+    opacity: .8;
+    box-shadow: 1px 1px grey;
+    transition: .6s;
+}
+
+#battleshot{
+    position: absolute;
+    left: 300px;
+    top: 700px;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    border: 2px solid grey;
+    box-shadow: 5px 5px grey;
+}
+#battleshot:hover{
+    width: 395px;
+    height: 295px;
+    opacity: .8;
+    box-shadow: 1px 1px grey;
+    transition: .6s;
+}
+#title1{
+position: absolute;
+    left: 458px;
+    top: 600px;
+   
+}
+#title2{
+position: absolute;
+    left: 961px;
+    top: 600px;
+   width: 200px;
+}
+
+#title3{
+position: absolute;
+    left: 458px;
+    top: 996px;
+   
+}
