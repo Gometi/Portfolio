@@ -166,3 +166,9 @@ a {
     height: 250px;
    }
 }
+
+@media only screen and (max-width: 1024px){
+   .project_container{
+       flex-direction: column;
+   }
+}
