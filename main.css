@@ -159,10 +159,10 @@ a {
        flex-direction: column;
    }
    .project_details, #brand{
-       width: 400px;
+       width: 320px;
    }
    .project_images{
-    width: 400px;
+    width: 320px;
     height: 250px;
    }
 }
