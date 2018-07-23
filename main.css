@@ -160,69 +160,8 @@ a {
     flex-direction: column;
 }
 
-/* #mexrex{
-    
-    width: 400px;
-    height: 300px;
-    border-radius: 10px;
-    border: 2px solid grey;
-    box-shadow: 5px 5px grey;
+@media only screen and (max-width: 600px){
+   .project_container{
+       flex-direction: column;
+   }
 }
-
-#mexrex:hover{
-   width: 395px;
-    height: 295px;
-    opacity: .8;
-    box-shadow: 1px 1px grey;
-    transition: .6s;
-}
-#okinirii{
-    
-    width: 400px;
-    height: 300px;
-    border-radius: 10px;
-    border: 2px solid grey;
-    box-shadow: 5px 5px grey;
-}
-#okinirii:hover{
-    width: 395px;
-    height: 295px;
-    opacity: .8;
-    box-shadow: 1px 1px grey;
-    transition: .6s;
-}
-
-#battleshot{
-    
-    width: 400px;
-    height: 300px;
-    border-radius: 10px;
-    border: 2px solid grey;
-    box-shadow: 5px 5px grey;
-}
-#battleshot:hover{
-    width: 395px;
-    height: 295px;
-    opacity: .8;
-    box-shadow: 1px 1px grey;
-    transition: .6s;
-} */
-/* #title1{
-position: absolute;
-    left: 458px;
-    top: 600px;
-   
-}
-#title2{
-position: absolute;
-    left: 961px;
-    top: 600px;
-   width: 200px;
-}
-
-#title3{
-position: absolute;
-    left: 458px;
-    top: 996px;
-   
-} */
