@@ -140,13 +140,7 @@ a {
     border: 2px solid grey;
 }
 
-/* .project_images:hover{
-   width: 595px;
-    height: 395px;
-    opacity: .8;
-    box-shadow: 1px 1px grey;
-    transition: .6s;
-} */
+
 
 .section_title{
     font-size: 50px;
@@ -163,5 +157,12 @@ a {
 @media only screen and (max-width: 600px){
    .project_container{
        flex-direction: column;
+   }
+   .project_details, #brand{
+       width: 400px;
+   }
+   .project_images{
+    width: 400px;
+    height: 250px;
    }
 }
