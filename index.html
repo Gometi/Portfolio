@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Ufuoma Gometi</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Patrick+Hand" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Patrick+Hand" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
@@ -23,125 +24,159 @@
     </div>
     <br>
     <br>
-    <div class="container1">
+    <div class="container1 container-fluid">
         <article>
-        <br>
-    <div id="about_me">
-        <img id="my_photo" src="project_images/myPhoto.jpg" alt="My Photo">
-        <h3 id="brand">
-            I am a web developer interested in creating meaningful projects. General Assembly has given me the opportunity to hone my
-            skills in web development and to express myself creatively. I am eager to use those skills to create friendly user
-            experiences while solving complex problems.
-        </h3>
-    </div>
-<br>
-<br>
-    <div class="skills_section">
-        <h1 class="section_title">Skills</h1>
-        <div class="skills">
-            <div class="frontend">
-                <h2>FRONT-END</h2>
-                <div>
-                    <img src="project_images/html.png" alt="html">
-                    <img src="project_images/css3.png" alt="css3">
-                    <img src="project_images/js.png" alt="javascript">
-                    <img src="project_images/jquery.png" alt="jquery">
-                    <img src="project_images/react.png" alt="react">
-                    <img src="project_images/redux.png" alt="redux">
-                </div>
-
+            <br>
+            <div id="about_me">
+                <img id="my_photo" src="project_images/myPhoto.jpg" alt="My Photo">
+                <h3 id="brand">
+                    I am a web developer interested in creating meaningful projects. General Assembly has given me the
+                    opportunity to hone my
+                    skills in web development and to express myself creatively. I am eager to use those skills to
+                    create friendly user
+                    experiences while solving complex problems.
+                </h3>
             </div>
-            <div class="backend">
-                <h2>BACK-END</h2>
-                <div>
-                    <img src="project_images/node.png" alt="node">
-                    <img class="express" src="project_images/express.png" alt="express">
-                    <img src="project_images/rails.png" alt="rails">
-                    <img src="project_images/postgres.png" alt="postgres">
-                </div>
+            <br>
+            <br>
+            <div class="skills_section">
+                <h1 class="section_title">Skills</h1>
+                <div class="skills">
+                    <div class="frontend">
+                        <h2>FRONT-END</h2>
+                        <div class="d-flex">
+                            <div>
+                                <img src="project_images/html.png" alt="html">
+                                <p class="ml-3">HTML</p>
+                            </div>
+                            <div>
+                                <img src="project_images/css3.png" alt="css3">
+                                <p class="ml-4">CSS</p>
+                            </div>
+                            <div>
+                                <img src="project_images/js.png" alt="javascript">
+                                <p>JavaScript</p>
+                            </div>
+                            <div>
+                                <img src="project_images/jquery.png" alt="jquery">
+                                <p class="ml-4">JQuery</p>
+                            </div>
+                            <div>
+                                <img src="project_images/react.png" alt="react">
+                                <p class="ml-4">React</p>
+                            </div>
+                            <div>
+                                <img src="project_images/redux.png" alt="redux">
+                                <p class="ml-4">Redux</p>
+                            </div>
+                        </div>
 
+                    </div>
+                    <div class="backend">
+                        <h2>BACK-END</h2>
+                        <div class="d-flex">
+                            <div>
+                            <img src="project_images/node.png" alt="node">
+                            <p class="ml-4">Node</p>
+                        </div>
+                        <div>
+                            <img class="express" src="project_images/express.png" alt="express">
+                            
+                        </div>
+                        <div>
+                            <img src="project_images/rails.png" alt="rails">
+                            <p>Ruby on Rails</p>
+                        </div>
+                        <div class="ml-3">
+                            <img src="project_images/postgres.png" alt="postgres">
+                            <p class="ml-2">PostgreSQL</p>
+                        </div>
+                        </div>
+
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-    </article>
+        </article>
     </div>
     <br>
     <br>
-    <div id="projects">
+    <div id="projects" class="container-fluid">
         <article>
-        <h1 class="section_title">Projects</h1>
+            <h1 class="section_title mt-4">Projects</h1>
 
-        <h2 class="title">Okinirii Anime</h2>
-        <div class="project_container">
-            <img class="project_images" src="project_images/Okiniri_Anime.gif" alt="Okiniiri Anime">
-            <h3 class="project_details">
-                This is an app for anime fans, where they can search for their favorite animes, and add those animes to their 'must watch
-                list'. They can also write reviews and find streaming links for their favorite anime.
-            </h3>
-        </div>
-        <div class="links">
-            <a href="https://mighty-scrubland-27458.herokuapp.com">
-                <h3 class="site">Site</h3>
-            </a>
-            <a href="https://github.com/Gometi/Okiniiri-Anime">
-                <h3 class="github">Github</h3>
-            </a>
-        </div>
+            <h2 class="title">Okinirii Anime</h2>
+            <div class="project_container">
+                <img class="project_images" src="project_images/Okiniri_Anime.gif" alt="Okiniiri Anime">
+                <h3 class="project_details">
+                    This is an app for anime fans, where they can search for their favorite animes, and add those
+                    animes to their 'must watch
+                    list'. They can also write reviews and find streaming links for their favorite anime.
+                </h3>
+            </div>
+            <div class="links">
+                <a href="https://mighty-scrubland-27458.herokuapp.com">
+                    <h3 class="site">Site</h3>
+                </a>
+                <a href="https://github.com/Gometi/Okiniiri-Anime">
+                    <h3 class="github">Github</h3>
+                </a>
+            </div>
 
-        <h2 class="title">Metrova</h2>
-        <div class="project_container">
-            <img class="project_images" src="project_images/metrova.gif" alt="Metrova">
-        
-            <h3 class="project_details">
-                This app is an online store for selling Wrist watches
-            </h3>
-        </div>
-        
-        <div class="links">
-            <a href="https://metrova.surge.sh">
-                <h3 class="site">Site</h3>
-            </a>
-            <a href="https://github.com/Gometi/Metrova">
-                <h3 class="github">Github</h3>
-            </a>
-        </div>
-        
-        <h2 class="title">Mex Recipes</h2>
-        <div class="project_container">
-            <img class="project_images" src="project_images/mexrex.gif" alt="Mex Recipes">
+            <h2 class="title">Metrova</h2>
+            <div class="project_container">
+                <img class="project_images" src="project_images/metrova.gif" alt="Metrova">
 
-            <h3 class="project_details">
-                This is an app where users can create and manage recipes
-            </h3>
-        </div>
+                <h3 class="project_details">
+                    This app is an online store that sells Wrist watches
+                </h3>
+            </div>
 
-        <div class="links">
-            <a href="https://mighty-coast-80491.herokuapp.com">
-                <h3 class="site">Site</h3>
-            </a>
-            <a href="https://github.com/Gometi/Mex-Recipes">
-                <h3 class="github">Github</h3>
-            </a>
-        </div>
+            <div class="links">
+                <a href="https://metrova.surge.sh">
+                    <h3 class="site">Site</h3>
+                </a>
+                <a href="https://github.com/Gometi/Metrova">
+                    <h3 class="github">Github</h3>
+                </a>
+            </div>
 
-        <h2 class="title">Escape Room</h2>
-        <div class="project_container">
-            <img class="project_images" src="project_images/EscapeRoom.gif" alt="Escape Room">
-            <h3 class="project_details">
-                This is a game where the player has to escape from a mansion by finding clues and solving puzzles so that he can find a way
-                out.
-            </h3>
-        </div>
+            <h2 class="title">Mex Recipes</h2>
+            <div class="project_container">
+                <img class="project_images" src="project_images/MexRex.gif" alt="Mex Recipes">
 
-        <div class="links">
-            <a href="http://escape-room.surge.sh">
-                <h3 class="site">Site</h3>
-            </a>
-            <a href="https://github.com/Gometi/Escape-Room">
-                <h3 class="github">Github</h3>
-            </a>
-        </div>
-</article>
+                <h3 class="project_details">
+                    This is an app where users can create and manage recipes
+                </h3>
+            </div>
+
+            <div class="links">
+                <a href="https://mighty-coast-80491.herokuapp.com">
+                    <h3 class="site">Site</h3>
+                </a>
+                <a href="https://github.com/Gometi/Mex-Recipes">
+                    <h3 class="github">Github</h3>
+                </a>
+            </div>
+
+            <h2 class="title">Escape Room</h2>
+            <div class="project_container">
+                <img class="project_images" src="project_images/EscapeRoom.gif" alt="Escape Room">
+                <h3 class="project_details">
+                    This is a game where the player has to escape from a mansion by finding clues and solving puzzles
+                    so that he can find a way
+                    out.
+                </h3>
+            </div>
+
+            <div class="links">
+                <a href="http://escape-room.surge.sh">
+                    <h3 class="site">Site</h3>
+                </a>
+                <a href="https://github.com/Gometi/Escape-Room">
+                    <h3 class="github">Github</h3>
+                </a>
+            </div>
+        </article>
     </div>
     <div class="contact">
         <h1 class="section_title">Contact</h1>
